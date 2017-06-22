@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class NumberExaminer {
-	public boolean isTwoFirstTwoLast(String number) {
+	public boolean isTwoFirstTwoLast(String number) throws IllegalArgumentException {
 		if (!isFourDigit(number)) {
 			throw new IllegalArgumentException("Invalid input value");
 		} else {
