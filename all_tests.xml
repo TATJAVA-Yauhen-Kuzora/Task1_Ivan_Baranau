@@ -16,4 +16,10 @@
 			<class name="main.subtask3.TriangleTest" />
 		</classes>
 	</test>
+	<test verbose="2" name="Unit tests for subtask4">
+		<classes>
+			<class name="main.subtask4.AreaTest" />
+			<class name="main.subtask4.PointTest" />
+		</classes>
+	</test>
 </suite>

@@ -11,6 +11,8 @@
 			<class name="main.subtask1.NumberExaminerTest" />
 			<class name="main.subtask2.FormulaTest" />
 			<class name="main.subtask3.TriangleTest" />
+			<class name="main.subtask4.AreaTest" />
+			<class name="main.subtask4.PointTest" />
 		</classes>
 	</test>
 	<test verbose="2" name="Unit tests for all methods">
@@ -23,6 +25,8 @@
 			<class name="main.subtask1.NumberExaminerTest" />
 			<class name="main.subtask2.FormulaTest" />
 			<class name="main.subtask3.TriangleTest" />
+			<class name="main.subtask4.AreaTest" />
+			<class name="main.subtask4.PointTest" />
 		</classes>
 	</test>
 	<test verbose="2" name="Unit tests for all exceptions">
@@ -35,6 +39,8 @@
 			<class name="main.subtask1.NumberExaminerTest" />
 			<class name="main.subtask2.FormulaTest" />
 			<class name="main.subtask3.TriangleTest" />
+			<class name="main.subtask4.AreaTest" />
+			<class name="main.subtask4.PointTest" />
 		</classes>
 	</test>
 </suite>
