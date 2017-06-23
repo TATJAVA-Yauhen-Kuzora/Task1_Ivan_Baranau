@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
 <suite name="All tests">
 	<test verbose="2" name="Unit tests for subtask1">
 		<classes>
-			<class name="main.subtask1.NumberExaminerTest">
-			</class>
+			<class name="main.subtask1.NumberExaminerTest" />
 		</classes>
 	</test>
-
 	<test verbose="2" name="Unit tests for subtask2">
 		<classes>
-			<class name="main.subtask2.FormulaTest">
-			</class>
+			<class name="main.subtask2.FormulaTest" />
 		</classes>
 	</test>
-
 	<test verbose="2" name="Unit tests for subtask3">
 		<classes>
-			<class name="main.subtask3.TriangleTest">
-			</class>
+			<class name="main.subtask3.TriangleTest" />
 		</classes>
 	</test>
-
-</suite> <!-- Default suite -->
+</suite>
