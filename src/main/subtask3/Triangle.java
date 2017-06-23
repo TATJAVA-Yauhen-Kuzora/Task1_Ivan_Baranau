@@ -4,7 +4,7 @@ public class Triangle {
 	private double leg1;
 	private double leg2;
 
-	public Triangle(double leg1, double leg2) throws Exception {
+	public Triangle(double leg1, double leg2) throws IllegalArgumentException {
 		if (leg1 < 0 || leg2 < 0 || !Double.isInfinite(leg1) || !Double.isInfinite(leg2) || !Double.isNaN(leg1)
 				|| !Double.isNaN(leg2)) {
 			throw new IllegalArgumentException("Invalid values of the legs");
