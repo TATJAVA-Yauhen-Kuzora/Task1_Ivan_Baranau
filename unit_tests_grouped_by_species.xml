@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Unit tests">
+	<test verbose="2" name="Unit tests for all constructors">
+		<groups>
+			<run>
+				<include name="constructors" />
+			</run>
+		</groups>
+		<classes>
+			<class name="main.subtask1.NumberExaminerTest" />
+			<class name="main.subtask2.FormulaTest" />
+			<class name="main.subtask3.TriangleTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="Unit tests for all methods">
+		<groups>
+			<run>
+				<include name="methods" />
+			</run>
+		</groups>
+		<classes>
+			<class name="main.subtask1.NumberExaminerTest" />
+			<class name="main.subtask2.FormulaTest" />
+			<class name="main.subtask3.TriangleTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="Unit tests for all exceptions">
+		<groups>
+			<run>
+				<include name="exceptions" />
+			</run>
+		</groups>
+		<classes>
+			<class name="main.subtask1.NumberExaminerTest" />
+			<class name="main.subtask2.FormulaTest" />
+			<class name="main.subtask3.TriangleTest" />
+		</classes>
+	</test>
+</suite>
