@@ -18,7 +18,8 @@ public class NumberExaminerTest {
 		Assert.assertEquals(exam.isTwoFirstTwoLast(number), expected);
 	}
 
-	@Test(groups = { "exceptions" }, dataProvider = "dp2", dataProviderClass = DataProviderSubTask1.class, expectedExceptions = IllegalArgumentException.class)
+	@Test(groups = {
+			"exceptions" }, dataProvider = "dp2", dataProviderClass = DataProviderSubTask1.class, expectedExceptions = IllegalArgumentException.class)
 	public void tst_exception_isTwoFirstTwoLast(String number) {
 		exam.isTwoFirstTwoLast(number);
 	}

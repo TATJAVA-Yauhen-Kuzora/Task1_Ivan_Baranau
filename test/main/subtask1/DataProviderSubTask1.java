@@ -15,7 +15,7 @@ public class DataProviderSubTask1 {
 	}
 
 	@DataProvider
-	public Object[][] dp2() {// negative tests for method isTwoFirstTwoLast
+	public Object[][] dp2() { // negative tests for method isTwoFirstTwoLast
 		return new Object[][] { new Object[] { "----" }, //
 				new Object[] { "\nce" }, //
 				new Object[] { "___!" }, //
