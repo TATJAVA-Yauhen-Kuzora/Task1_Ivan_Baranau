@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 public class NumberExaminerTest {
 	private NumberExaminer exam;
 
-	@BeforeMethod
+	@BeforeMethod(groups = { "methods", "exceptions", "constructors" })
 	public void beforeMethod() {
 		exam = new NumberExaminer();
 	}
@@ -24,7 +24,7 @@ public class NumberExaminerTest {
 		exam.isTwoFirstTwoLast(number);
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = { "methods", "exceptions", "constructors" })
 	public void afterMethod() {
 		exam = null;
 	}

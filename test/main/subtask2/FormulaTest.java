@@ -9,12 +9,12 @@ import org.testng.annotations.AfterMethod;
 public class FormulaTest {
 	private Formula formula;
 
-	@BeforeMethod
+	@BeforeMethod(groups = { "methods", "exceptions", "constructors" })
 	public void beforeMethod() {
 		formula = new Formula();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = { "methods", "exceptions", "constructors" })
 	public void afterMethod() {
 		formula = null;
 	}
