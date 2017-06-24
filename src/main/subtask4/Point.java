@@ -8,12 +8,12 @@ public class Point {
 		this.x=x;
 		this.y=y;
 	}
-	public boolean isPointInArea(Area area) {
-		if (x >= area.getX1() && x < area.getX2()) {
-			if (y >= area.getY1() && y < area.getY2()) {
-				return true;
-			}
-		}
-		return false;
+
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
 	}
 }
