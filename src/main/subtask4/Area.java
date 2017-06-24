@@ -12,6 +12,15 @@ public class Area {
 		this.x2=x2;
 		this.y2=y2;
 	}
+	
+	public boolean isPointInArea(Point point) {
+		if (point.getX() >= getX1() && point.getX() < getX2()) {
+			if (point.getY() >= getY1() && point.getY() < getY2()) {
+				return true;
+			}
+		}
+		return false;
+	}
 
 	public int getX1() {
 		return x1;
