@@ -18,6 +18,7 @@
 			<class name="main.subtask6.ThreeNumberTest" />
 			<class name="main.subtask8.NaturalNumberArrayTest" />
 			<class name="main.subtask9.MergerTest" />
+			<class name="main.subtask10.MatrixTest" />
 		</classes>
 	</test>
 	<test verbose="2" name="Unit tests for all methods">
@@ -37,6 +38,7 @@
 			<class name="main.subtask6.ThreeNumberTest" />
 			<class name="main.subtask8.NaturalNumberArrayTest" />
 			<class name="main.subtask9.MergerTest" />
+			<class name="main.subtask10.MatrixTest" />
 		</classes>
 	</test>
 	<test verbose="2" name="Unit tests for all exceptions">
@@ -56,6 +58,7 @@
 			<class name="main.subtask6.ThreeNumberTest" />
 			<class name="main.subtask8.NaturalNumberArrayTest" />
 			<class name="main.subtask9.MergerTest" />
+			<class name="main.subtask10.MatrixTest" />
 		</classes>
 	</test>
 </suite>

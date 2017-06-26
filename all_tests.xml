@@ -38,9 +38,14 @@
 			<class name="main.subtask8.NaturalNumberArrayTest" />
 		</classes>
 	</test>
-		<test verbose="2" name="Unit tests for subtask9">
+	<test verbose="2" name="Unit tests for subtask9">
 		<classes>
 			<class name="main.subtask9.MergerTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="Unit tests for subtask10">
+		<classes>
+			<class name="main.subtask10.MatrixTest" />
 		</classes>
 	</test>
 </suite>
