@@ -13,14 +13,36 @@ public class DataProviderSubTask4 {
 	}
 
 	@DataProvider
-	public Object[][] dp2() { // boolean expected, int x, int y, Area area;
-		Area area = new Area(-2, 0, 2, 4); // right inputed Area();
-		Area wrongArea = new Area(5, 5, 0, 0); // wrong inputed Area();
-		return new Object[][] { new Object[] { true, 1, 1, area }, //
-				new Object[] { true, -2, 0, area }, //
-				new Object[] { false, 5, 5, area }, //
-				new Object[] { false, 10, 10, area }, //
-				new Object[] { true, 2, 2, wrongArea }, //
+	public Object[][] dp2() { //
+		return new Object[][] { new Object[] { 1, 1 }, //
+				new Object[] { -2, 0 }, //
+				new Object[] { 5, 5 }, //
+				new Object[] { 10, 10 }, //
+				new Object[] { 2, 2 }, //
+		};
+	}
+
+	@DataProvider
+	public Object[][] dp3() { //
+		Area rightArea = new Area(-2, 0, 2, 4);
+		Area wrongArea = new Area(5, 5, 0, 0);
+		Point goodPoint = new Point(2, 2);
+		Point badPoint = new Point(10, 10);
+		return new Object[][] { new Object[] { true, rightArea, goodPoint }, //
+				new Object[] { false, rightArea, badPoint }, //
+				new Object[] { true, wrongArea, goodPoint }, //
+				new Object[] { false, wrongArea, badPoint }, //
+		};
+	}
+
+	@DataProvider
+	public Object[][] dp4() { //
+		Point goodPoint = new Point(2, 2);
+		Point badPoint = new Point(10, 10);
+		return new Object[][] { new Object[] { -2, 0, 2, 4, true, goodPoint }, //
+				new Object[] { -2, 0, 2, 4, false, badPoint }, //
+				new Object[] { 5, 5, 0, 0, true, goodPoint }, //
+				new Object[] { 5, 5, 0, 0, false, badPoint }, //
 		};
 	}
 }

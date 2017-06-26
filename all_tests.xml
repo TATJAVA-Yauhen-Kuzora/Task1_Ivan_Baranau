@@ -20,6 +20,27 @@
 		<classes>
 			<class name="main.subtask4.AreaTest" />
 			<class name="main.subtask4.PointTest" />
+			<class name="main.subtask4.CoordinatePlaneTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="Unit tests for subtask5">
+		<classes>
+			<class name="main.subtask5.SolutionTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="Unit tests for subtask6">
+		<classes>
+			<class name="main.subtask6.ThreeNumberTest" />
+		</classes>
+	</test>
+	<test verbose="2" name="Unit tests for subtask8">
+		<classes>
+			<class name="main.subtask8.NaturalNumberArrayTest" />
+		</classes>
+	</test>
+		<test verbose="2" name="Unit tests for subtask9">
+		<classes>
+			<class name="main.subtask9.MergerTest" />
 		</classes>
 	</test>
 </suite>

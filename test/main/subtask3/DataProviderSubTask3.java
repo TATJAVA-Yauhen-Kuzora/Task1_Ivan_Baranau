@@ -10,7 +10,7 @@ public class DataProviderSubTask3 {
 				new Object[] { 2.0, 2.0, 2.0, 6.828427 }, //
 				new Object[] { Double.MAX_VALUE, Double.MAX_VALUE, Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY }, //
 				new Object[] { 2, 3, 3.0, 8.605551 }, //
-				new Object[] { Double.MIN_VALUE, Double.MIN_VALUE, 0.0000, 0.0000 }, //
+				new Object[] { 0, 0, 0.0000, 0.0000 }, //
 		};
 	}
 
