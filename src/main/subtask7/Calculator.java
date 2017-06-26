@@ -9,7 +9,6 @@ public class Calculator {
 		Map<Double,Double> result=new TreeMap<>();
 		double x=a;
 		while(x<b){
-			System.out.println("hi");
 			double func=Math.pow(Math.sin(x),2)-Math.cos(2*x);
 			result.put(x, func);
 			x+=dx;
